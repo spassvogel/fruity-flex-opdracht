@@ -1,6 +1,6 @@
 # Fruity flexbox
 
-note: Studenten downloaden de `student` branch!
+note: Studenten downloaden de [student](https://github.com/spassvogel/fruity-flex-opdracht/tree/student) branch!
 
 Voor de flexbox lessen zijn 'opdrachten' gemaakt. Het idee is om ze het voorbeeld te laten zien (zie de `fruity-flex-voorbeeld-en-uitwerkingen.zip`) en ze de bronbestanden te geven (de `fruity-flex-opdrachten.zip`) en dan ze te vragen het voorbeeld na te bouwen in de `opdracht-X.css`. Daarna klassikaal doornemen.
  
