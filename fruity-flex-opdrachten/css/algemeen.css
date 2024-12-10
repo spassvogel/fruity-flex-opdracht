@@ -1,0 +1,76 @@
+/** In dit bestand hoef je niks te veranderen */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('../images/background.jpg');
+  background-position: center;
+}
+
+main {
+  margin-top: 2rem;
+}
+
+.flex-card {
+  overflow: hidden;
+  background-color: white;
+  color: #333;
+  margin: 0.5rem;
+  max-width: 320px;
+  border-width: 5px;
+  border-radius: 1rem;
+  border-style: solid;
+}
+
+.flex-card.banana {
+  border-color: gold;
+}
+
+.flex-card.strawberry {
+  border-color: red;
+}
+
+.flex-card.kiwi {
+  border-color: green;
+}
+
+.flex-card img {
+  display: block;
+  width: 100%;
+}
+
+.flex-card section {
+  padding: 1rem;
+}
+
+.flex-card .order {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+.flex-card.banana .order {
+  background-color: gold;
+}
+
+.flex-card.strawberry .order {
+  background-color: red;
+}
+
+.flex-card.kiwi .order {
+  background-color: green;
+}
